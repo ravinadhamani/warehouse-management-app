@@ -1,0 +1,105 @@
+
+
+#navbarContainer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:#567086 ;
+}
+
+.navbarText{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.loginBtn{
+    margin-left: 150px;
+    margin-top: 40px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: #567086;
+    
+}
+.logoutBtn{
+   
+    margin-top: 25px;
+    height: 30px;
+    color: white;
+    border: none;
+    background-color: #567086;
+}
+
+.loginState{
+  
+    font-weight: 800;
+    
+
+}
+
+.loginBtn:hover{
+    color: #F5A623;
+
+}
+
+.link1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.link2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: white;
+     padding: 0 25px;
+     text-decoration: none;
+
+}
+
+.link3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: white;
+     padding: 0 25px;
+     text-decoration: none;
+    
+}
+.iconContainer{
+    width: 400px;
+    padding-top:0 20px;
+    margin-left: 250px;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.link1:hover  {
+    color: #F5A623;
+    transition-delay: 0.3s all
+}
+
+.link2:hover  {
+    color: #F5A623;
+    transition-delay: 0.3s all
+}
+
+.link3:hover  {
+    color: #F5A623;
+    transition-delay: 0.3s all
+}
+

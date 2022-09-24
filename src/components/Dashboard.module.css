@@ -1,0 +1,221 @@
+
+.text{
+   
+  margin-left: -1050px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+ 
+}
+
+.username{
+  font-weight: 700;
+}
+
+
+
+.body{
+    width: 85%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    background-color: #4E657A;
+   height: 1280px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 20px;
+   row-gap: 20px;
+   justify-content: space-between; 
+  }
+
+  .latestHits{
+    width: 100px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  
+  .chart1{
+    padding: 50px;
+    height: 400px;
+    justify-content: center;
+    background-color: #435C70;
+    box-sizing: border-box;
+   
+  }
+
+  .chartLine{
+  margin-top: 30px;
+  background-color: #435C70;
+  }
+
+  .chart2{
+    padding: 50px;
+    height:400px;
+    justify-content: center;
+    background-color: #435C70;
+    box-sizing: border-box;
+  
+  }
+
+  .performanceText{
+    width: 120px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .chartBar{
+    background-color: #435C70;
+
+  }
+  
+  .chart3{
+  position: relative;
+  height: 400px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #435C70;
+  }
+
+
+
+.storageText{
+ width: 200px;
+  color: white;
+  font-size: 20px;
+  margin-top: -25px;
+  margin-left: 50px;
+}
+
+  .pieChart{
+
+    background-color: #435C70;
+    
+
+  }
+  
+  .chart4{
+  height: 400px;
+    padding-left: 30px;
+    background-color: #435C70;
+  
+  }
+
+
+
+  .notificationText{
+    width: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+
+  }
+
+
+  .notificationListContainer{
+    margin-top: 20px;
+    width: 85%;
+  }
+
+  .list{
+   
+    width: 99.5%;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #4E657A;
+
+  }
+
+  .message{
+    margin-top: -90px;
+    margin-left: 120px;
+    text-align: left;
+    font-weight: 500;
+    width: 320px;
+    color: white;
+
+  }
+
+  #pic{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+  }
+
+  .chart5{
+    position: relative;
+    width: 96.5%;
+    height: 400px;
+    padding-left: 40px;
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    background-color: #435C70;
+  
+  }
+
+
+
+  .ordersText{
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+
+  }
+
+  .ordersTable{
+    width: 90%;
+    position: absolute;
+    height: 100px;
+    top: 68px;
+    overflow-y: scroll;
+    border-collapse: collapse;
+    background-color: #435C70;
+  
+   
+  }
+  
+  .ordersTable tr th{
+    padding: 20px 10px;
+    text-align: left;
+    font-size: 13px;
+    color: white;
+    border-collapse: collapse;
+    background-color: #486177;
+  }
+
+  .ordersTable tr td{
+    padding: 20px 10px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background-color: #50697F;
+  }
+
+  .tr1{
+    border-bottom: 5px solid #435C70;
+    
+  } 
+
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  ::-webkit-scrollbar-track {
+    background-color:#4E657A ;
+  
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: #8AB5D6;
+  
+  }
+  

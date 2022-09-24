@@ -1,0 +1,32 @@
+.mainContainer{
+    height: 700px;
+
+
+}
+.userNameLabel{
+  
+    
+    font-size: 28px;
+    margin-top: 50px;
+    color: white;
+    }
+.loginForm{
+    padding-top: 50px;
+    padding: 30px;
+    margin-top: 40px;
+    width: 380px;
+    height: max-content;
+    box-sizing: border-box;
+    background-color: #435C70;
+
+}
+.usernameInput{
+    margin-bottom: 10px;
+    width: 99%;
+    height: 50px;
+    border: none;
+    color: white;
+   outline: none;
+    background-color: #54657D;
+}
+

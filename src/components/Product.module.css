@@ -1,0 +1,308 @@
+#productPageWrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+    height: 800px;
+}
+
+
+  
+
+
+#productWrapper{
+    
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 40px;
+    width: 52%;
+    margin-right: 30px;
+    height: 700px;
+    background-color: #435C70;
+    box-sizing: border-box;
+    
+
+}
+
+
+.productTableWrapper{
+    height: 74%;
+    overflow-y: scroll;
+    background-color: #435C70;
+
+}
+
+
+.productTable{
+  
+    padding: 0 10px;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+    
+    
+
+}
+
+.productTh th{
+    padding: 15px 15px;
+    font-size: 14px;
+    font-weight: 650;
+    margin-right: 5px;
+    color: white;
+    
+    background-color: #486177;
+    
+}
+.productTr td{
+    padding: 20px 14px;
+    border-bottom: 2px solid #435C70;
+    font-weight: 650;
+    font-size: 15px;
+    color: white;
+    /* background-color: #50697F; */
+  
+
+
+}
+
+.productTr{
+    background-color: #50697F;
+}
+
+
+.productTr:hover{
+    background-color: #486177;
+}
+
+.productTr:hover td{
+    color: #6D8DA6;
+
+}
+
+.productTr:hover .deleteContainer{
+    color: white;
+}
+
+
+
+.productTr td input[type="checkbox"]:checked {
+    background: url(https://templatemo.com/templates/templatemo_524_product_admin/img/check-mark.png) #2a3848 center no-repeat;
+}
+
+
+.productTr td input[type="checkbox"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #394e64;
+    background-position: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: content-box;
+    width: 24px;
+    height: 24px;
+    transition: all 0.1s linear;
+  
+}
+
+
+
+.deleteContainer{
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #2a3848;
+    align-items: center;
+  
+}
+
+.deleteContainer:hover .deleteIcon {
+    color: #6D8DA6;
+}
+
+.deleteIcon{
+    color: white;
+}
+
+.buttonWrapper{
+   
+    background-color: #435C70;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: fit-content;
+
+}
+
+.addBtn{
+    height: 50px;
+    color: white;
+    background-color: #F5A623;
+    border: #F5A623;
+    font-weight: 700;
+    font-size: 15px;
+    z-index: 1;
+    margin-bottom: 10px;
+
+}
+
+.addBtn:hover{
+    background-color: #435C70;
+    border: 2px solid #F5A623;
+    color: #F5A623;
+}
+
+.delBtn{
+   
+    height: 50px;
+    color: white;
+    background-color: #F5A623;
+    border: #F5A623;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.delBtn:hover{
+    background-color: #435C70;
+    border: 2px solid #F5A623;
+    color: #F5A623;
+}
+
+
+#categoryWrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 22%;
+    height: 600px;
+}
+
+
+.categoryHeading{
+    display:inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.categoryTr td{
+    padding: 20px 25px;
+    border-bottom: 2px solid #435C70;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background-color: #50697F;
+
+
+}
+
+
+#categoryWrapper{
+    background-color: #435C70;
+}
+
+
+.categoryTableWrapper{
+    height: 65.5%;
+    overflow-y: scroll;
+}
+.categoryTable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+
+.addCatBtn{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    color: white;
+    background-color: #F5A623;
+    border: #F5A623;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+
+}
+
+
+
+.addCatBtn:hover{
+    background-color: #435C70;
+    border: 2px solid #F5A623;
+    color: #F5A623;
+}
+
+
+
+
+/* .active{
+    display: none;
+} */
+.categoryHeadings{
+    color:white;
+    background-color: #435C70;
+    border: none;
+}
+
+.formWrapper{
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: #435C70;
+    box-shadow: 5px 5px 10px 8px #1c262d ;
+
+}
+
+.addCategoryForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #435C70;
+}
+
+
+label{
+    font-size: 15px;
+    font-weight: 500;
+}
+.categoryName{
+    width: 400px;
+    height: 35px;
+    outline: none;
+    color: white;
+    background-color: #54657D;
+    border: none;
+}
+
+.submitBtn{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: #F5A623;
+    background-color: #F5A623;
+}
+
+.modalfooter{
+    border: none;
+}
+
+.addCategoryFormWrapper{
+    background-color:#435C70 ;
+}
