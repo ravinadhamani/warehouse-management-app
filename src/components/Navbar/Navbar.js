@@ -100,7 +100,7 @@ function Navbar(data) {
   };
   return (
     <div id={styles.navbarContainer}>
-       <h2 className={styles.navbarText}>Warehouse Homepage </h2> 
+       <h2 className={styles.navbarText}>Warehouse App </h2> 
       <IconContext.Provider value={{ size: "30px" }}>
         <div className={styles.iconContainer}>
           <Link
