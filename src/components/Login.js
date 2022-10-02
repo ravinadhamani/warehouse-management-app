@@ -114,7 +114,7 @@ const Login = () => {
     }
   };
 
-  const handleGoogleSignIn = async (e) => {
+ /* const handleGoogleSignIn = async (e) => {
     e.preventDefault();
     try {
       await googleSignIn();
@@ -122,7 +122,7 @@ const Login = () => {
     } catch (error) {
       console.log(error.message);
     }
-  };
+  };*/
 
   return (
     <>
@@ -154,13 +154,13 @@ const Login = () => {
           </div>
         </Form>
         <hr />
-        <div>
+        /*<div>
           <GoogleButton
             className="g-btn"
             type="dark"
             onClick={handleGoogleSignIn}
           />
-        </div>
+        </div>*/
         <div className="p-4 box mt-3 text-center">
         Don't have an account? <Link to="/signup"><Button>Sign up</Button></Link>
       </div>
