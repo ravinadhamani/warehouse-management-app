@@ -82,7 +82,4 @@ b) Product Categories Section on Right
 
 - User can edit any of the form fields on the right 
 
-- When a user clicks on the 'UPDATE YOUR PROFILE' Button, the information should be stored in the local storage and next time when a user comes back to see the account in the same session then the updated information should be present in the fields along with the photo. 
-
-- Once the user clicks on the 'UPDATE YOUR PROFILE' Button, show a confirmation message on the popup 'Information Updated Successfully!'
 
