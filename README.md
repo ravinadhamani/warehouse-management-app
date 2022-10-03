@@ -47,7 +47,7 @@ API Call: https://reactmusicplayer-ab9e4.firebaseio.com/project-data.json
 
 5. Order List 
 
-- Use the charts.js or apex chart libraries to draw the graphs in sections: (1),(2),(3) - The reference links for these libraries and their tutorials are given at the bottom of this document.
+- Used the charts.js or apex chart libraries to draw the graphs in sections: (1),(2),(3) 
 
 
 
