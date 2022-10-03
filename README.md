@@ -17,7 +17,6 @@ Application Details:
 
 Functionalities Pagewise: 
 
-You have to make a single API call request to get the data for all the pages at once, store the response in local storage, and then use it page-wise. 
 
 API Call: https://reactmusicplayer-ab9e4.firebaseio.com/project-data.json 
 
